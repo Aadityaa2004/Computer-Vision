@@ -3,7 +3,6 @@ import mediapipe as mp
 import time
 import math 
 import Module as Module
-import cv2 as cv
 
 def hand_detection():
     pTime = 0
@@ -159,5 +158,5 @@ def mesh_detection():
    
     
 if __name__ == '__main__':
-    mesh_detection()
+    pose_detection()
 
